@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/codenerd/static/css/main.a876d1ac.css",
+    "main.js": "/codenerd/static/js/main.b2d605d1.js",
+    "static/js/787.a840d8cc.chunk.js": "/codenerd/static/js/787.a840d8cc.chunk.js",
+    "index.html": "/codenerd/index.html",
+    "main.a876d1ac.css.map": "/codenerd/static/css/main.a876d1ac.css.map",
+    "main.b2d605d1.js.map": "/codenerd/static/js/main.b2d605d1.js.map",
+    "787.a840d8cc.chunk.js.map": "/codenerd/static/js/787.a840d8cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a876d1ac.css",
+    "static/js/main.b2d605d1.js"
+  ]
+}
