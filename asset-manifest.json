@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/codenerd/static/css/main.e35f2782.css",
+    "main.css": "/codenerd/static/css/main.5c294f4d.css",
     "main.js": "/codenerd/static/js/main.4ad27276.js",
     "static/js/787.a840d8cc.chunk.js": "/codenerd/static/js/787.a840d8cc.chunk.js",
     "static/media/oval2.svg": "/codenerd/static/media/oval2.67e667e657bb3b1b99168a7065e9bfa3.svg",
@@ -12,12 +12,12 @@
     "static/media/Oval1.svg": "/codenerd/static/media/Oval1.6485667aed6a10a69333372630f7e34e.svg",
     "static/media/Rectangle.svg": "/codenerd/static/media/Rectangle.d9da414c9654897159c19ed486fd4598.svg",
     "index.html": "/codenerd/index.html",
-    "main.e35f2782.css.map": "/codenerd/static/css/main.e35f2782.css.map",
+    "main.5c294f4d.css.map": "/codenerd/static/css/main.5c294f4d.css.map",
     "main.4ad27276.js.map": "/codenerd/static/js/main.4ad27276.js.map",
     "787.a840d8cc.chunk.js.map": "/codenerd/static/js/787.a840d8cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35f2782.css",
+    "static/css/main.5c294f4d.css",
     "static/js/main.4ad27276.js"
   ]
 }
