@@ -1,12 +1,15 @@
 import React from 'react';
 import "./notification.css";
-import Card from '../card/Card';
+import Displaydata from '../displayData/Displaydata';
 
 const Notification = () => {
   return (
-    <div>
-      <h1 className='notify'>NOTIFICATION</h1>
-      <Card />
+    <div className='notification'>
+      <div>
+          
+              <Displaydata />
+          
+      </div>
     </div>
   )
 }
