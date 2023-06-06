@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/codenerd/static/css/main.a876d1ac.css",
-    "main.js": "/codenerd/static/js/main.b2d605d1.js",
+    "main.css": "/codenerd/static/css/main.e35f2782.css",
+    "main.js": "/codenerd/static/js/main.4ad27276.js",
     "static/js/787.a840d8cc.chunk.js": "/codenerd/static/js/787.a840d8cc.chunk.js",
+    "static/media/oval2.svg": "/codenerd/static/media/oval2.67e667e657bb3b1b99168a7065e9bfa3.svg",
+    "static/media/oval.svg": "/codenerd/static/media/oval.f32a081ac0872437366add486fbb80dd.svg",
+    "static/media/Oval4.svg": "/codenerd/static/media/Oval4.a366f1c808f897a1e7ca3134c2320054.svg",
+    "static/media/Oval3.svg": "/codenerd/static/media/Oval3.ae3cd48f84853c0d447c4e5542c03411.svg",
+    "static/media/Oval5.svg": "/codenerd/static/media/Oval5.93a9015b81d13031530914a285e51610.svg",
+    "static/media/Oval6.svg": "/codenerd/static/media/Oval6.dc5870251133aadbdb5cded0dfe30db4.svg",
+    "static/media/Oval1.svg": "/codenerd/static/media/Oval1.6485667aed6a10a69333372630f7e34e.svg",
+    "static/media/Rectangle.svg": "/codenerd/static/media/Rectangle.d9da414c9654897159c19ed486fd4598.svg",
     "index.html": "/codenerd/index.html",
-    "main.a876d1ac.css.map": "/codenerd/static/css/main.a876d1ac.css.map",
-    "main.b2d605d1.js.map": "/codenerd/static/js/main.b2d605d1.js.map",
+    "main.e35f2782.css.map": "/codenerd/static/css/main.e35f2782.css.map",
+    "main.4ad27276.js.map": "/codenerd/static/js/main.4ad27276.js.map",
     "787.a840d8cc.chunk.js.map": "/codenerd/static/js/787.a840d8cc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a876d1ac.css",
-    "static/js/main.b2d605d1.js"
+    "static/css/main.e35f2782.css",
+    "static/js/main.4ad27276.js"
   ]
 }
