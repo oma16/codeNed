@@ -1,3 +1,5 @@
-.notify{
-    color: red;
+.notification{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
 }

@@ -1,0 +1,110 @@
+.displaymessage{
+    display: flex;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+.username{
+font-family: "Plus Jakarta Sans";
+font-size: 16px;
+font-weight: 800;
+line-height: 20px;
+letter-spacing: 0px;
+text-align: left;
+color: #1C202B;
+padding-right: 5px;
+
+}
+.notif{
+  padding-left: 10px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6778;
+}
+.username:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
+.content{
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5E6778;
+  margin-left: 4px;
+}
+
+.message{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+.message .notifys{
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:  #5E6778;
+  text-decoration: none;
+  margin-left: 8px;
+}
+.message .notifys:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
+.userContent{
+  display: flex;
+  flex-direction: column;
+  height: 45px;
+  width: 554px;
+  left: 469px;
+  top: 175px;
+  border-radius: 0px;
+  margin-left: 15px;
+}
+.container1 p{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #5E6778;
+  padding-left: 12px;
+  margin-top: 5px;
+}
+.date p{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #939CAD;
+}
+.chess{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0A327B;
+  text-decoration: none;
+}
+
+
+/* mobile view */
+
+
+@media only screen and (max-width:430px){
+  .username,.date p, .notif,.chess,.content,.message .notifys, .container1 p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+}
