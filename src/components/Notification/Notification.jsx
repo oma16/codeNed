@@ -7,7 +7,7 @@ const Notification = () => {
     <div className='notification'>
       <div>
           
-              <Displaydata />
+        <Displaydata />
           
       </div>
     </div>

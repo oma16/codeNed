@@ -7,16 +7,36 @@ import { useState } from 'react';
 
 const Displaydata = () => {
     const [show, setShow] = useState(false);
+    const [notify, setNotify] = useState(Data)
+
     const handleClick = () =>{
-        setShow(true);
+        setShow(!false);
     }
+
+    function markRead (){
+        setNotify((data) => data.map( n => ({...n, isRead: true})))
+    }
+
+    function clickCard(id) {
+        setNotify((datas) => datas.map( data => (data.id === id ? {...data, isRead:  true} : data))
+    
+        )
+      }
+
   return (
     <div>
-        {
-            <Data/> && Data.map(({id,name,notif,messageContent,dateStamp,userImg,messageImg,content,chess}) => {
+        <>
+            {/* style the span to be in front of the h1 and space the button to fit in th right space at the top of the card */}
+            <h1>Notification</h1>
+            <span>{notify.filter((da) => (da.isRead !== true)).length}</span>
+
+            <button onClick={markRead}>Mark all as read</button>
+        </>
+
+        {<Data/> && Data.map(({id,name,notif,messageContent,dateStamp,userImg,messageImg,content,chess}) => {
                 return (
                     <>
-                        <div key={id}>
+                        <div key={id} onClick={()=> (clickCard(id))}>
                         <Card className='container' >
                                 <div className='displaymessage'>
                                     <div> <img src={userImg} alt='userImage' /></div>
