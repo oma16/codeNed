@@ -1,3 +1,6 @@
+.main{
+  margin: auto;
+}
 .displaymessage{
     display: flex;
     margin-top: 3px;
@@ -23,6 +26,56 @@ padding-right: 5px;
   line-height: 20px;
   color: #5E6778;
 }
+.notifications{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  
+}
+.notifyicon{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #1C202B;
+}
+.icon{
+  height: 25px;
+  width: 32px;
+  border-radius: 6px;
+  font-family: 'Plus Jakarta Sans';
+  background: #0A327B;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 6px 15px;
+  margin-left: 10px;
+}
+.mark-all{
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #5E6778;
+  border: none;
+  background-color: white;
+
+}
+.mark-all:hover{
+  color: #0A327B;
+  cursor: pointer;
+}
+.dot{
+ margin-left: 5px;
+}
+.dotnone{
+  display: none;
+}
 .username:hover{
   color: #0A327B;
   cursor: pointer;
@@ -35,7 +88,7 @@ padding-right: 5px;
   letter-spacing: 0px;
   text-align: left;
   color: #5E6778;
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .message{
@@ -53,7 +106,7 @@ padding-right: 5px;
   text-align: left;
   color:  #5E6778;
   text-decoration: none;
-  margin-left: 8px;
+  margin-left: 5px;
 }
 .message .notifys:hover{
   color: #0A327B;
@@ -105,6 +158,19 @@ padding-right: 5px;
   .username,.date p, .notif,.chess,.content,.message .notifys, .container1 p{
     font-size: 14px;
     line-height: 18px;
+  }
+  .head{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .mark-all{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .icon{
+    padding: 3px 10px;
   }
   
 }
